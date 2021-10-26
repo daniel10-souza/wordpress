@@ -19,7 +19,7 @@ services:
        MYSQL_DATABASE: wordpress
        MYSQL_USER: wordpress
        MYSQL_PASSWORD: wordpress
-
+#Configuração banco
    wordpress:
      depends_on:
        - db
